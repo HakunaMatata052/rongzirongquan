@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="renderer" content="webkit">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="Author" content="Anles">
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script> 
+  <script src="<%= BASE_URL %>js/echarts.min.js" type="text/javascript" charset="utf-8"></script>   
+  <script src="<%= BASE_URL %>js/tmpData.js" type="text/javascript" charset="utf-8"></script>
+  <script src="<%= BASE_URL %>js/k-line.js" type="text/javascript" charset="utf-8"></script>
+  <script src="http://hq.sinajs.cn/rn=1461855885572&list=s_sh000001,s_sz399001,s_sz399006"></script>
+  <link rel="stylesheet" href="font/iconfont.css">
+  <title></title>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but app doesn't work properly without JavaScript enabled. Please enable it
+      to
+      continue.</strong>
+  </noscript>  
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+  <script>
+    window.onload = function () {
+      // safari阻止双击放大
+      var lastTouchEnd = 0;
+      document.addEventListener('touchstart', function (event) {
+        if (event.touches.length > 1) {
+          event.preventDefault();
+        }
+      });
+      document.addEventListener('touchend', function (event) {
+        var now = (new Date()).getTime();
+        if (now - lastTouchEnd <= 300) {
+          event.preventDefault();
+        }
+        lastTouchEnd = now;
+      }, false);
+      // safari 阻止双指
+      document.addEventListener('gesturestart', function (event) {
+        event.preventDefault();
+      });
+    }
+  </script>
+</body>
+
+</html>

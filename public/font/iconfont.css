@@ -1,0 +1,25 @@
+@font-face {font-family: "icon";
+  src: url('iconfont.eot?t=1571905090357'); /* IE9 */
+  src: url('iconfont.eot?t=1571905090357#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPIAAsAAAAAB6AAAAN7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqDOIMQATYCJAMMCwgABCAFhD0HNxunBlGUDUqe7IckSYlLMBQ2SIUBmKMCCBwOsKC5AAZAPPy33//2mTnP5n4VRKTSPJJEI94tiScIDdoPiUhohMKieya/rbXMEwub8c8tK0KF9jB7x9nZyxbUG1tpaiwPrMvT9BImx5fqoLYGoENRbIBffUhOi/OJe8d/RPgsAJhja9QlHMFYm9rCgQTkKajXTKwG6OJmAs0WU7UzF3eP0JVor0A8TCIPuhWtHCgMQ6HfMTHFRz3D8r7cAB+S78c/60im6FV04MXb5yEc/SzvT+Fn43Y3Ir3n25lhTKPiEJDErU7rFY0sekhD86TN4cy+FMpWgf8xCdeX9y/6xytEH82fAPvgL/wUTIKfjVcooII+Gl5j7jGUlKWe4cQMii63mMSuikYDsVgwEvGHwyFUOCqKihitfxT4HK4LogI+lN8X9Ad4HEsGR53BU/sVqVpFmpaflhq0qLgWK1dvVQV5nFQlJ0vJy/JH3wPhV9/cMt/UoXR69pi/8gXlg1EH9iYc5KHA7giKhWKgNGigbdqLgrs2aA//xQk41A2VsQZDPTVgNTjcA5aRBYa7ofmtXmiVpSXCrWuz3dAWH7g+C7USczZZwP5Nvt7NsMHkLtBLVsGK3vHDe3ntwz1x+CXudo7kGkZC+bRQ7jIjd0SWG5Llh6Yq6nte3BfPyEV3828j70hzd4oIAQuDgdu29eJCSgmw8Xv4O2vRKTWwb7wBF5pN2A8sDnh+99EnwFCIrfFWIgUj6BvNVdTmw2NXV2NEBKssNM1XmKDBBRjv1cUFSbyt/q7tP/A3vs00XzuTU/+7XYLvsU0h3OO2NM3O8PZswe/iTaxKX0B1NV2u4IaJ6p7uy9BovsxPKoY5X8vli5PzCWmxQDGwiiptI5KxCz2dfehLJ9EctDe9M8/XEDnCAZYgDH1CMWUD1dAXIhlf0bPkE31DP9Bc8r9gZ09ktCJDnlCI/jsmAZeKa6SfZt5TZHPPmBwReiZTJfDg6sixcuKSSjJLhlQv0VpEoTJc4MXs7SjPGbXhlAKZxyL6cHH0dteN5gEX0HeaQTyChJDvHUoEWElFTtFv9L9HIlbOYzoEifkZQVyZHBSjlbnlAHEpLQcrHjW88iKyJoSClJ/PCujicDPJWZQh3d0uRQJiLl4Q1g4tlFpqqnR+rLx4jnXQ0BVrlKiR8hGH1L5jObYJAAA=') format('woff2'),
+  url('iconfont.woff?t=1571905090357') format('woff'),
+  url('iconfont.ttf?t=1571905090357') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1571905090357#icon') format('svg'); /* iOS 4.1- */
+}
+
+.icon {
+  font-family: "icon" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-wode:before {
+  content: "\e602";
+}
+
+.icon-guohui:before {
+  content: "\e67a";
+}
+
